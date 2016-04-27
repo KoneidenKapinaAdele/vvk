@@ -56,6 +56,8 @@ Vapaus, vessuus, karttuus
 - James Bond -pahiksen valvontadroidijärjestelmä
 > droidit voivat myös ampua etäältä ihmiset, jotka uhkaavat Solitan yhteishenkeä.
 
+- InterCity-junavaunujen näyttöihin softa realiaikaisen aikataulun ja sijainnin näyttämiseen. 
+
 ## ei valmiita ideoita:
 - kaikenlaiset kotityöt - erityisesti pyykki
 
