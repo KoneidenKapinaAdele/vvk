@@ -54,7 +54,10 @@ Nämä ovat kriteereitä idean arviointiin:
 - James Bond -pahiksen valvontadroidijärjestelmä
   - droidit voivat myös ampua etäältä ihmiset, jotka uhkaavat Solitan yhteishenkeä.
 
-- InterCity-junavaunujen näyttöihin softa realiaikaisen aikataulun ja sijainnin näyttämiseen. 
+- InterCity-junavaunujen näyttöihin softa realiaikaisen aikataulun ja sijainnin näyttämiseen.
+
+- Pysäkkipäristin™
+  - Havahduttaa voimakkaastikin sammuneen matkustajan ennen omaa pysäkkiään.
 
 ## ei valmiita ideoita:
 - kaikenlaiset kotityöt - erityisesti pyykki
@@ -89,4 +92,3 @@ Nämä ovat kriteereitä idean arviointiin:
 - + laajennettavuus: pystyy soveltamaan hyvin monenlaisiin aiheisiin: onko tietty yhteiskäyttöinen resurssi vapaana, esim. sorvi, hitsauspaikka, laboratorio, tms
 - - päällekkäisyys varausjärjestelmien kanssa
 - - onko tarpeeksi hauska?
-
