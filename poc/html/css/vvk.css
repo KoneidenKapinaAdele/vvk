@@ -3,6 +3,21 @@ html, body {
 	padding: 0;
 }
 
+#clock {
+	position: absolute;
+	top: 120px;
+	left: 20px;
+	font-size: 14px;
+}
+
+#totalUsageGauge {
+	position: absolute;
+	height: 100px;
+	width: 150px;
+	left: 5px;
+	top: 5px;
+}
+
 .map {
 	background-image: url(../img/solita_helsinki_map_grayscale.png);
 	width: 1300px;
@@ -15,11 +30,11 @@ html, body {
 	width: 25px;
 }
 
-.toilet + .free {
+.free {
 	background-image: url(../img/toilet_free_25px.png);
 }
 
-.toilet + .occupied {
+.occupied {
 	background-image: url(../img/toilet_occupied_25px.png);
 }
 
