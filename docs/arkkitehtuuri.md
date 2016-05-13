@@ -1,6 +1,7 @@
 # Arkkitehtuuri
 
 Arkkitehtuuri koostuu kolmesta osasta:
+
 1. Dataa keräävät anturit lähettävät tapahtumia pilvipalvelimelle HTTP POST-komennoilla.
 2. Pilvipalvelin tallentaa anturien tapahtumat, hallitsee datan luonnin ja haun käyttöoikeuksia ja tarjoaa käyttöliittymälle valmiiksi pureskeltua dataa.
 3. Selainkäyttöliittymä näyttää tietoa anturien datan perusteella
