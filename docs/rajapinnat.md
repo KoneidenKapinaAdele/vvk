@@ -2,9 +2,9 @@
 
 ## Uuden tapahtuman tallennus
 
-HTTP Metdod: `POST`
-URL: `/event`
-Onnistuneen tapahtuman luonin vastaus: `HTTP 201`
+* HTTP Metdod: `POST`
+* URL: `/event`
+* Onnistuneen tapahtuman luonin vastaus: `HTTP 201`
 
 Esimerkkidata:
 ```
@@ -17,9 +17,9 @@ Esimerkkidata:
 
 ## Tämän hetken kaikkien anturien käyttötilanteen selvitys
 
-HTTP Metdod: `GET`
-URL: `/status/current`
-Onnistuneen kutsun vastaus: `HTTP 200`
+* HTTP Metdod: `GET`
+* URL: `/status/current`
+* Onnistuneen kutsun vastaus: `HTTP 200`
 
 Esimerkkidata:
 ```
