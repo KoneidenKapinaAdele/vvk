@@ -36,3 +36,30 @@ Esimerkkidata:
 	]
 }
 ```
+
+## Kaikkien tilojen käyttötilanteen historian aikasarja päivämäärälle
+
+* HTTP Metdod: `GET`
+* URL: `/status/timeserie/<ISO date>`, esim. `/status/timeserie/2016-04-27`
+* Onnistuneen kutsun vastaus: `HTTP 200`
+* Selite: kaikkien anturien datasta lasketut aikasarja parametrina annettulle päivälle. Aikasarjassa on käyttöaste, eli kuinka monta prosenttia kustakin tunnista tilat ovat olleet varattuna.
+
+Esimerkkidata:
+```
+{
+	timeserie: [
+		{
+			"hour" : 1
+			"occupied_percentage" : 0
+		},
+		{
+			"hour" : 7
+			"occupied_percentage" : 20
+		},
+		{
+			"hour" : 12
+			"occupied_percentage" : 90
+		}
+	]
+}
+```
