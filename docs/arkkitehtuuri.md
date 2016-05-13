@@ -1,12 +1,13 @@
 # Arkkitehtuuri
 
-Arkkitehtuuri koostuu kolmesta osasta:
+Arkkitehtuuri koostuu neljästä osasta:
 
 1. Dataa keräävät anturit lähettävät tapahtumia pilvipalvelimelle HTTP POST-komennoilla.
 2. Pilvipalvelin tallentaa anturien tapahtumat, hallitsee datan luonnin ja haun käyttöoikeuksia ja tarjoaa käyttöliittymälle valmiiksi pureskeltua dataa.
 3. Selainkäyttöliittymä näyttää tietoa anturien datan perusteella
+4. Datan analyysi pureksii raakadataa ja löytää uusia, yllättäviä asioita
 
-## Datan keräys antureilla
+## 1. Datan keräys antureilla
 * Vastuuhenkilönä _Panu_
 * Luultavasti sopivin mittaustapa on infrapunaan perustuva liiketunnistin
   * Solitan Thinklabin valmiit anturit eivät vastaa tähän tarpeeseen --> luultavasti ostettava uusia
@@ -14,7 +15,7 @@ Arkkitehtuuri koostuu kolmesta osasta:
   * Vaihtoehto 1: liiketunnistimessa on itsessään Wlan-liityntä
   * Vaihtoehto 2: liiketunnistin on kiinni tietokoneessa (USB tai Bluetooth), joka lähettää tiedot. Tietokone voi olla demossa kannettava tai esim. Rasberry Pi
 
-## Pilvipalvelin
+## 2. Pilvipalvelin
 * Vastuuhenkilönä _Liisa_
 * Stackinä relaatiotietokanta ja sovelluspalvelin
   * Tekniikoina Postgres ja Java Spring
@@ -26,7 +27,7 @@ Arkkitehtuuri koostuu kolmesta osasta:
 * Realiaikaisen varaustilanteen seurantaan olisi kiva kokeilla Push-notifikaatioita käyttöliittymälle Web Sockettien kautta.
 * Pitää olla rajapinta kaiken raakadatan saamiseen analysointia varten.
 
-## Selainkäyttöliittymä
+## 3. Selainkäyttöliittymä
 * Vastuuhenkilö _Antti_
 * Työpöydälle ja mobiiliin skaalautuva nettisivu
 * Hakee datan Herokun pilvipalvelusta HTTP GET-kutsuilla.
@@ -37,3 +38,7 @@ Arkkitehtuuri koostuu kolmesta osasta:
   * _Käyttötilanteen aikasarja_: kuvaaja, josta näkee kaikkien tai yhden tietyn tilan käyttö eri aikoina
   * _Varoitukset/ilmoitukset_: notifikaatio jos tilastollisesti tilan käyttöaste on tulevana ajanjaksona korkea
   * _Suunnistus_: etäisyys ja suunta lähimpään vapaaseen tilaan 
+
+## 4. Raakadatan analysointi
+* Vastuuhenkilö _Jussi_
+* Pilvipalvelimessa on rajapinta josta saa kaiken anturien raakadatan ulos
