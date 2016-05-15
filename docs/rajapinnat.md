@@ -61,11 +61,13 @@ Esimerkkidata:
 }]
 ```
 
-## Kaikkien anturien tämän hetken tilanteen selvitys
+## Kaikkien paikkojen tämän hetken tilanteen selvitys
 
 * Toteutuksen prioriteetti: 1
 * HTTP Method: `GET`
 * URL: `/v1/status/current`
+* Query-parametrit:
+  * `type`: minkätyyppistä mittausdataa haetaan, oletuksena occupied
 * Onnistuneen kutsun vastaus: `HTTP 200`
 
 Esimerkkidata:
@@ -87,7 +89,7 @@ Esimerkkidata:
 
 * Toteutuksen prioriteetti: 2
 * HTTP Method: `GET`
-* URL: `/v1/status/usage`
+* URL: `/v1/query/usagestats`
 * Query-parametrit:
   * `starting`: ajanhetki, josta lähtien käyttöaste lasketaan
   * `ending`: ajanhetki, johon asti käyttöaste lasketaan
