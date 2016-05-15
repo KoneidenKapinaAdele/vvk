@@ -138,3 +138,33 @@ Esimerkkidata:
 }
 ```
 
+## Muut sisältötyypit
+
+* Prioriteetti: 5
+
+Tiedot voi lähettää tai vastaanottaa myös CSV-muodossa käyttämällä
+Content-type- ja Accept-otsakkeita.  Tällöin sanomassa ovat mukana samat
+kentät kuin JSON-sanomassakin; rivi 1 kertoo kenttien nimet ja
+järjestyksen.
+
+Esimerkkidata (tapahtuman tallennus):
+```CSV
+"device_id","place_id","timestamp","type","value"
+10123,945,"2016-04-10T12:49:12+22:45","obscured",true
+```
+
+Esimerkkidata (raakadatan haku):
+```CSV
+"device_id","place_id","timestamp","type","value"
+10123,945,"2016-04-10T12:49:12+22:45","occupied",true
+10456,945,"2016-03-10T12:49:12+22:45","ambient light",1030.07
+```
+
+Esimerkkidata (tämän hetken tilanne):
+```JSON
+"place_id","latitude","longitude","occupied"
+945,24.93876,60.17664,true
+946,24.93866,60.17664,false
+}]
+```
+
