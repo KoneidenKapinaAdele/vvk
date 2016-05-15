@@ -69,12 +69,14 @@ Esimerkkidata:
 Esimerkkidata:
 ```
 [{
- "device_id": 10123,
  "place_id": 945,
+ "latitude": 24.93876,
+ "longitude": 60.17664,
  "occupied": true
 }, {
- "device_id": 10456,
- "place_id": 945,
+ "place_id": 946,
+ "latitude": 24.93866,
+ "longitude": 60.17664,
  "occupied": false
 }]
 ```
