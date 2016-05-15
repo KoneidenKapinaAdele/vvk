@@ -161,10 +161,9 @@ Esimerkkidata (raakadatan haku):
 ```
 
 Esimerkkidata (tämän hetken tilanne):
-```JSON
+```CSV
 "place_id","latitude","longitude","occupied"
 945,24.93876,60.17664,true
 946,24.93866,60.17664,false
-}]
 ```
 
