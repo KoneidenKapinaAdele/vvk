@@ -19,6 +19,7 @@ käyttöaikasuosituksiin.
   * [Arkkitehtuuri](https://github.com/KoneidenKapinaAdele/vvk/blob/master/docs/arkkitehtuuri.md)
   * [Tietomalli](https://github.com/KoneidenKapinaAdele/vvk/blob/master/docs/tietomalli.md)
   * [Rajapinnat](https://github.com/KoneidenKapinaAdele/vvk/blob/master/docs/rajapinnat.md)
+  * [Käyttöliittymä](http://koneidenkapinaadele.github.io/vvk-ui/)
 
 ## Lyhyt kuvaus palvelusta
 
