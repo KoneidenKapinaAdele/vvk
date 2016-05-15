@@ -56,6 +56,10 @@ Nämä ovat kriteereitä idean arviointiin:
 
 - InterCity-junavaunujen näyttöihin softa realiaikaisen aikataulun ja sijainnin näyttämiseen. 
 
+- sokeiden 3d-pelit, FPS:t
+  - kunnollinen, ääneen perustuva 3d-malli
+  - kosketusliivien käyttö ympäristön hahmottamiseen
+
 ## ei valmiita ideoita:
 - kaikenlaiset kotityöt - erityisesti pyykki
 
