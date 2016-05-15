@@ -107,3 +107,27 @@ Esimerkkidata:
  "average": 0.2
 }
 
+## Lähin vapaa tai vapautuva vessa
+
+* Toteutuksen prioriteetti: 2
+* HTTP Method: `GET`
+* URL: `/v1/query/nearest`
+* Query-parametrit:
+  * `latitude`: tämänhetkisen sijainnin leveyspiiri (WGS84)
+  * `longitude`: tämänhetkisen sijainnin pituuspiiri (WGS84)
+* Onnistuneen kutsun vastaus: `HTTP 200`
+* Laskee, missä on lähin vapaa vessa, tai jos se on hyvin kaukana, mikä
+  lähellä olevista vessoista on todennäköisesti ensin vapautumassa
+  (esim. on ollut jo pitkään käytössä).  Palauttaa kyseisen paikan
+  tiedot kuten statuskyselyssä.
+
+Esimerkkidata:
+```
+{
+ "place_id": 946,
+ "latitude": 24.93866,
+ "longitude": 60.17664,
+ "occupied": false
+}
+```
+
