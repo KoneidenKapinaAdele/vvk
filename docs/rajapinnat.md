@@ -30,10 +30,15 @@ Esimerkkidata:
 * HTTP Method: `GET`
 * URL: `/v1/event/`
 * Query-parametrit:
-  * `not_before`: oletusarvo äärettömän kaukana menneisyydessä
-  * `not_after`: oletusarvo äärettömän kaukana tulevaisuudessa
-  * `device_id`: haluttu anturi, oletuksena kaikki, toistettavissa
-  * `place_id`: haluttu paikka, oletuksena kaikki, toistettavissa
+  * `starting`: jättää pois tätä aiemmat tapahtumat, oletusarvo
+    äärettömän kaukana menneisyydessä
+  * `ending`: jättää pois tätä myöhemmät tapahtumat, oletusarvo
+    äärettömän kaukana tulevaisuudessa
+  * `device_id`: haluttu anturi, toistettavissa
+  * `place_id`: haluttu paikka, toistettavissa
+    * jos `device_id` tai `place_id` annetaan useamman kerran, kaikki
+      luetellut paikat ja anturit haetaan.  Jos kumpaakaan ei anneta,
+      haetaan kaikki paikat ja anturit.
   * `type`: haluttu mittaustyyppi, oletuksena kaikki, toistettavissa
 * Onnistuneen kutsun vastaus: `HTTP 200`
 
@@ -74,63 +79,29 @@ Esimerkkidata:
 }]
 ```
 
-## Kaikkien tilojen käyttötilanteen historian aikasarja päivämäärälle
+## Kaikkien tilojen käyttöastetilasto
 
 * Toteutuksen prioriteetti: 2
 * HTTP Method: `GET`
-* URL: `/v1/status/timeserie/<ISO date>`, esim. `/status/timeserie/2016-04-27`
+* URL: `/v1/status/usage`
+* Query-parametrit:
+  * `starting`: ajanhetki, josta lähtien käyttöaste lasketaan
+  * `ending`: ajanhetki, johon asti käyttöaste lasketaan
+  * `device_id`: haluttu anturi, toistettavissa
+  * `place_id`: haluttu paikka, toistettavissa
+    * jos `device_id` tai `place_id` annetaan useamman kerran, kaikki
+      luetellut paikat ja anturit haetaan.  Jos kumpaakaan ei anneta,
+      haetaan kaikki paikat ja anturit.
+  * `type`: haluttu mittaustyyppi, oletuksena "occupied"
 * Onnistuneen kutsun vastaus: `HTTP 200`
-* Selite: kaikkien anturien datasta lasketut aikasarja parametrina
-  annettulle päivälle. Aikasarjassa on käyttöaste, eli kuinka monta
-  prosenttia kustakin tunnista tilat ovat olleet varattuna.
+* Laskee, mikä on halutun mittaustyypin arvojen keskiarvo halutuissa
+  paikoissa / antureilla halutulla aikavälillä.  Kyllä/ei-arvoiset
+  mittaukset tulkitaan kyllä=1 ja ei=0.
 
 Esimerkkidata:
 ```
 {
-	timeserie: [
-		{
-			"hour" : 1
-			"occupied_percentage" : 0
-		},
-		{
-			"hour" : 7
-			"occupied_percentage" : 20
-		},
-		{
-			"hour" : 12
-			"occupied_percentage" : 90
-		}
-	]
+ "type": "occupied",
+ "average": 0.2
 }
-```
 
-## Tietyn tilan käyttötilanteen historian aikasarja päivämäärälle
-
-* Toteutuksen prioriteetti: 3
-* HTTP Method: `GET`
-* URL: `/v1/status/device/<device id>/timeserie/<ISO date>`, esim.
-  `/status/device/10456/timeserie/2016-04-27`
-* Onnistuneen kutsun vastaus: `HTTP 200`
-* Selite: tietyn anturin datasta lasketut aikasarja parametrina
-  annettulle päivälle. Aikasarjassa on käyttöaste, eli kuinka monta
-  prosenttia kustakin tunnista tila on ollut varattuna.
-
-Esimerkkidata:
-```
-{
-	timeserie: [
-		{
-			"hour" : 1
-			"occupied_percentage" : 0
-		},
-		{
-			"hour" : 7
-			"occupied_percentage" : 20
-		},
-		{
-			"hour" : 12
-			"occupied_percentage" : 90
-		}
-	]
-}
-```
