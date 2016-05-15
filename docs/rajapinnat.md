@@ -32,16 +32,17 @@ Esimerkkidata:
 * HTTP Method: `GET`
 * URL: `/v1/event/`
 * Query-parametrit:
-  * `starting`: jättää pois tätä aiemmat tapahtumat, oletusarvo
-    äärettömän kaukana menneisyydessä
-  * `ending`: jättää pois tätä myöhemmät tapahtumat, oletusarvo
-    äärettömän kaukana tulevaisuudessa
-  * `device_id`: haluttu anturi, toistettavissa
-  * `place_id`: haluttu paikka, toistettavissa
+  * `starting` (prioriteetti 2): jättää pois tätä aiemmat tapahtumat,
+    oletusarvo äärettömän kaukana menneisyydessä
+  * `ending` (prioriteetti 2): jättää pois tätä myöhemmät tapahtumat,
+    oletusarvo äärettömän kaukana tulevaisuudessa
+  * `device_id` (prioriteetti 3): haluttu anturi, toistettavissa
+  * `place_id` (prioriteetti 3): haluttu paikka, toistettavissa
     * jos `device_id` tai `place_id` annetaan useamman kerran, kaikki
       luetellut paikat ja anturit haetaan.  Jos kumpaakaan ei anneta,
       haetaan kaikki paikat ja anturit.
-  * `type`: haluttu mittaustyyppi, oletuksena kaikki, toistettavissa
+  * `type` (prioriteetti 2): haluttu mittaustyyppi, oletuksena kaikki,
+    toistettavissa
 * Onnistuneen kutsun vastaus: `HTTP 200`
 
 Esimerkkidata:
@@ -67,7 +68,8 @@ Esimerkkidata:
 * HTTP Method: `GET`
 * URL: `/v1/status/current`
 * Query-parametrit:
-  * `type`: minkätyyppistä mittausdataa haetaan, oletuksena occupied
+  * `type` (prioriteetti 4): minkätyyppistä mittausdataa haetaan,
+    oletuksena "occupied"
 * Onnistuneen kutsun vastaus: `HTTP 200`
 
 Esimerkkidata:
@@ -87,18 +89,18 @@ Esimerkkidata:
 
 ## Kaikkien tilojen käyttöastetilasto
 
-* Toteutuksen prioriteetti: 2
-* HTTP Method: `GET`
+* Toteutuksen prioriteetti: 3
+* HTTP Method:  `GET`
 * URL: `/v1/query/usagestats`
 * Query-parametrit:
   * `starting`: ajanhetki, josta lähtien käyttöaste lasketaan
   * `ending`: ajanhetki, johon asti käyttöaste lasketaan
-  * `device_id`: haluttu anturi, toistettavissa
-  * `place_id`: haluttu paikka, toistettavissa
+  * `device_id` (prioriteetti 4): haluttu anturi, toistettavissa
+  * `place_id` (prioriteetti 4): haluttu paikka, toistettavissa
     * jos `device_id` tai `place_id` annetaan useamman kerran, kaikki
       luetellut paikat ja anturit haetaan.  Jos kumpaakaan ei anneta,
       haetaan kaikki paikat ja anturit.
-  * `type`: haluttu mittaustyyppi, oletuksena "occupied"
+  * `type` (prioriteetti 4): haluttu mittaustyyppi, oletuksena "occupied"
 * Onnistuneen kutsun vastaus: `HTTP 200`
 * Laskee, mikä on halutun mittaustyypin arvojen keskiarvo halutuissa
   paikoissa / antureilla halutulla aikavälillä.  Kyllä/ei-arvoiset
@@ -114,7 +116,7 @@ Esimerkkidata:
 
 ## Lähin vapaa tai vapautuva vessa
 
-* Toteutuksen prioriteetti: 2
+* Toteutuksen prioriteetti: 3
 * HTTP Method: `GET`
 * URL: `/v1/query/nearest`
 * Query-parametrit:
