@@ -8,7 +8,7 @@
 * Onnistuneen tapahtuman luonin vastaus: `HTTP 201`
 
 Esimerkkidata:
-```
+```JSON
 {
  "device_id": 10123,
  "place_id": 945,
@@ -45,7 +45,7 @@ Esimerkkidata:
 * Onnistuneen kutsun vastaus: `HTTP 200`
 
 Esimerkkidata:
-```
+```JSON
 [{
  "device_id": 10123,
  "place_id": 945,
@@ -69,7 +69,7 @@ Esimerkkidata:
 * Onnistuneen kutsun vastaus: `HTTP 200`
 
 Esimerkkidata:
-```
+```JSON
 [{
  "place_id": 945,
  "latitude": 24.93876,
@@ -103,7 +103,7 @@ Esimerkkidata:
   mittaukset tulkitaan kyllä=1 ja ei=0.
 
 Esimerkkidata:
-```
+```JSON
 {
  "type": "occupied",
  "average": 0.2
@@ -125,7 +125,7 @@ Esimerkkidata:
   tiedot kuten statuskyselyssä.
 
 Esimerkkidata:
-```
+```JSON
 {
  "place_id": 946,
  "latitude": 24.93866,
