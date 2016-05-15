@@ -12,13 +12,13 @@ Esimerkkidata:
 {
  "device_id": 10123,
  "place_id": 945,
- "event_datetime": "2016-04-10T12:49:12+22:45",
+ "timestamp": "2016-04-10T12:49:12+22:45",
  "type": "obscured",
  "value": true
 }
 ```
 
-* `event_datetime`-kenttä on valinnainen.
+* `timestamp`-kenttä on valinnainen.  Oletusarvo vastaanottohetki.
 * `type`-kentän arvoja ovat ainakin: "occupied", "ambient light",
   "movement", "obscured"
   * "occupied" on tarkoitettu antureille, jotka haluavat itse päätellä,
@@ -47,13 +47,13 @@ Esimerkkidata:
 [{
  "device_id": 10123,
  "place_id": 945,
- "event_datetime": "2016-04-10T12:49:12+22:45",
+ "timestamp": "2016-04-10T12:49:12+22:45",
  "type": "occupied",
  "value": true
 }, {
  "device_id": 10456,
  "place_id": 945,
- "event_datetime": "2016-03-10T12:49:12+22:45",
+ "timestamp": "2016-03-10T12:49:12+22:45",
  "type": "ambient light",
  "value": 1030.07
 }]
