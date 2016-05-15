@@ -19,6 +19,8 @@ Esimerkkidata:
 ```
 
 * `timestamp`-kenttä on valinnainen.  Oletusarvo vastaanottohetki.
+* `place_id`-kenttä on valinnainen.  Oletuksena palvelu liittää samaan
+  paikkaan, kuin aiempi data samasta anturista.
 * `type`-kentän arvoja ovat ainakin: "occupied", "ambient light",
   "movement", "obscured"
   * "occupied" on tarkoitettu antureille, jotka haluavat itse päätellä,
