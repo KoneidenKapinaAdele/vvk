@@ -108,6 +108,7 @@ Esimerkkidata:
  "type": "occupied",
  "average": 0.2
 }
+```
 
 ## Lähin vapaa tai vapautuva vessa
 
