@@ -12,13 +12,14 @@ löytämiseen ja käyttöaste-ennustuksiin perustuviin
 käyttöaikasuosituksiin.
 
 ## Dokumentaatio
+
 * Vaihe 1:
   * [POC-selaindemo](http://koneidenkapinaadele.github.io/vvk/)
-  * [Muita kerättyjä toteutusideoita](https://github.com/KoneidenKapinaAdele/vvk/blob/master/muita-ideoita.md)
+  * [Muita kerättyjä toteutusideoita](muita-ideoita.md)
 * Vaihe 2:
-  * [Arkkitehtuuri](https://github.com/KoneidenKapinaAdele/vvk/blob/master/docs/arkkitehtuuri.md)
-  * [Tietomalli](https://github.com/KoneidenKapinaAdele/vvk/blob/master/docs/tietomalli.md)
-  * [Rajapinnat](https://github.com/KoneidenKapinaAdele/vvk/blob/master/docs/rajapinnat.md)
+  * [Arkkitehtuuri](docs/arkkitehtuuri.md)
+  * [Tietomalli](docs/tietomalli.md)
+  * [Rajapinnat](docs/rajapinnat.md)
   * [Käyttöliittymä](http://koneidenkapinaadele.github.io/vvk-ui/)
 
 ## Lyhyt kuvaus palvelusta
