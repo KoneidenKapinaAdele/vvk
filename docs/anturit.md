@@ -1,6 +1,21 @@
 # Erilaisia mahdollisia antureita
 
-Liikkeentunnistimet
+## Tavoitteet
+
+* Halpoja standardikomponentteja, mahdollisimman vähän väsäämistä
+* Helppo yhdistäminen, mieluiten WLAN- tai Bluetooth-kommunikaatio
+* Helppo rajapinta, mieluiten jokin ReST-API, ei niin mielellään
+  web-ui-scrapetusta, vielä vähemmän mieluusti custom USB ja ei pliis
+  pinnien yhdistelyä
+
+## Hyvältä vaikuttava stack
+
+* [Z-wave-laitteet](https://en.wikipedia.org/wiki/Z-Wave)
+* [Z-wave-portti](http://www.zwaveproducts.com/shop/controllers/gateways-controllers)
+  * [UZB-tikku](http://www.z-wave.me/index.php?id=28)
+* [REST API portille](http://www.z-wave.me/index.php?id=22)
+
+## Liikkeentunnistimet
 
 * http://www.jablotron.com/fi/mukavuusjarjestelmat/ohjaus-ja-mittauslaitteet/tunnistimet.aspx
 * http://www.gigantti.fi/product/tietokoneet/reitittimet-ja-verkkolaitteet/BELWEMOBUNDLE/belkin-wemo-kytkin-liiketunnistin
