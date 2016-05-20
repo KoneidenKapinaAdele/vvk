@@ -130,13 +130,13 @@ Esimerkki lähetettävästä datasta:
 Esimerkkidata vastauksesta:
 ```JSON
 [{
- "place_id": 1
+ "place_id": 1,
  "latitude": 24.93876,
  "longitude": 60.17664,
  "name": "Kulmahuone"
 },
 {
- "place_id": 2
+ "place_id": 2,
  "latitude": 24.93678,
  "longitude": 60.17499,
  "name": "Sivuhuone"
