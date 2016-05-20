@@ -17,4 +17,5 @@ Kenttä | Tyyppi | Esimerkki | Selite
 place_id | integer | `300` | Paikan/huoneen yksilöllinen tunniste
 latitude | decimal | `25.09` | Paikan leveyspiiri WGS84-koordinaatteina
 longitude | decimal | `63.057` | Paikan pituuspiiri WGS84-koordinaatteina
+name | string | `Kulmahuone` | Paikan selkokielinen nimi käyttöliittymälle
 
