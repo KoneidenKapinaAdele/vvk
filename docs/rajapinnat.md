@@ -87,6 +87,62 @@ Esimerkkidata:
 }]
 ```
 
+## Paikan lisäys
+
+* Toteutuksen prioriteetti: 1
+* HTTP Method: `POST`
+* URL: `/v1/place/`
+* Onnistuneen kutsun vastaus: `HTTP 201`
+* Paluuarvo: luodun paika id
+
+Esimerkki lähetettävästä datasta:
+```JSON
+{
+ "latitude": 24.93876,
+ "longitude": 60.17664,
+ "name": "Kulmahuone"
+}]
+```
+
+## Paikan päivitys
+
+* Toteutuksen prioriteetti: 3
+* HTTP Method: `PUT`
+* URL: `/v1/place/<aikan id>`
+* Onnistuneen kutsun vastaus: `HTTP 200`
+
+Esimerkki lähetettävästä datasta:
+```JSON
+{
+ "latitude": 24.93876,
+ "longitude": 60.17664,
+ "name": "Kulmahuone"
+}]
+```
+
+## Paikkojen listaus
+
+* Toteutuksen prioriteetti: 3
+* HTTP Method: `GET`
+* URL: `/v1/places/`
+* Onnistuneen kutsun vastaus: `HTTP 200`
+
+Esimerkkidata vastauksesta:
+```JSON
+[{
+ "place_id": 1
+ "latitude": 24.93876,
+ "longitude": 60.17664,
+ "name": "Kulmahuone"
+},
+{
+ "place_id": 2
+ "latitude": 24.93678,
+ "longitude": 60.17499,
+ "name": "Sivuhuone"
+}]
+```
+
 ## Kaikkien tilojen käyttöastetilasto
 
 * Toteutuksen prioriteetti: 3
