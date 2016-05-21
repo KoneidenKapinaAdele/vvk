@@ -5,23 +5,24 @@
 * Toteutuksen prioriteetti: 1
 * HTTP Method: `POST`
 * URL: `/v1/event`
-* Onnistuneen tapahtuman luonin vastaus: `HTTP 201`
+* Onnistuneen kutsun statuskoodi: `HTTP 201`
+* Onnistuneen kutsun paluuarvo: luodun tapahtuman yksilöllinen id
 
-Esimerkkidata:
+Esimerkki lähetettävästä datasta:
 ```JSON
 {
  "device_id": 10123,
  "place_id": 945,
  "timestamp": "2016-04-10T12:49:12+22:45",
  "type": "obscured",
- "value": true
+ "value": 1.0
 }
 ```
 
 * `timestamp`-kenttä on valinnainen.  Oletusarvo vastaanottohetki.
 * `place_id`-kenttä on valinnainen.  Oletuksena palvelu liittää samaan
-  paikkaan, kuin aiempi data samasta anturista.
-* `type`-kentän arvoja ovat ainakin: "occupied", "ambient light",
+  paikkaan, kuin aiempi data samasta anturista. Palauttaa `HTTP 409` viestillä `No previous event for device 10123` jos samalle anturille ei ole vielä yhtään tapahtumaa.
+* `type`-kentän arvoja ovat ainakin: "occupied", "ambient_light",
   "movement", "obscured"
   * "occupied" on tarkoitettu antureille, jotka haluavat itse päätellä,
     onko paikassa joku.  Muut parametrit ovat antureiden raakadataa.
@@ -45,15 +46,17 @@ Esimerkkidata:
     toistettavissa
 * Onnistuneen kutsun vastaus: `HTTP 200`
 
-Esimerkkidata:
+Esimerkki palautettavasta datasta:
 ```JSON
 [{
+ "id": 3579,
  "device_id": 10123,
  "place_id": 945,
  "timestamp": "2016-04-10T12:49:12+22:45",
  "type": "occupied",
- "value": true
+ "value": 1.0
 }, {
+ "id": 7633,
  "device_id": 10456,
  "place_id": 945,
  "timestamp": "2016-03-10T12:49:12+22:45",
@@ -124,7 +127,7 @@ Esimerkki lähetettävästä datasta:
 
 * Toteutuksen prioriteetti: 3
 * HTTP Method: `GET`
-* URL: `/v1/places/`
+* URL: `/v1/place/`
 * Onnistuneen kutsun vastaus: `HTTP 200`
 
 Esimerkkidata vastauksesta:
