@@ -3,6 +3,7 @@
 ## Uuden tapahtuman tallennus
 
 * Toteutuksen prioriteetti: 1
+* Toteutuksen tila: toteutettu :white_check_mark:
 * HTTP Method: `POST`
 * URL: `/v1/event`
 * Onnistuneen kutsun statuskoodi: `HTTP 201`
@@ -13,7 +14,7 @@ Esimerkki lähetettävästä datasta:
 {
  "device_id": 10123,
  "place_id": 945,
- "timestamp": "2016-04-10T12:49:12+22:45",
+ "time": "2016-04-10T12:49:12+22:45",
  "type": "obscured",
  "value": 1.0
 }
@@ -30,6 +31,7 @@ Esimerkki lähetettävästä datasta:
 ## Tapahtumien raakadatan haku
 
 * Toteutuksen prioriteetti: 1
+* Toteutuksen tila: toteutettu prioriteetti 1 :white_check_mark:
 * HTTP Method: `GET`
 * URL: `/v1/event/`
 * Query-parametrit:
@@ -68,6 +70,7 @@ Esimerkki palautettavasta datasta:
 ## Kaikkien paikkojen tämän hetken tilanteen selvitys
 
 * Toteutuksen prioriteetti: 1
+* Toteutuksen tila: toteutettu (tukee vain `occupied` tapahtumatyyppiä) :white_check_mark:
 * HTTP Method: `GET`
 * URL: `/v1/status/current`
 * Query-parametrit:
@@ -93,6 +96,7 @@ Esimerkkidata:
 ## Paikan lisäys
 
 * Toteutuksen prioriteetti: 1
+* Toteutuksen tila: toteutettu :white_check_mark:
 * HTTP Method: `POST`
 * URL: `/v1/place/`
 * Onnistuneen kutsun vastaus: `HTTP 201`
@@ -110,6 +114,7 @@ Esimerkki lähetettävästä datasta:
 ## Paikan päivitys
 
 * Toteutuksen prioriteetti: 3
+* Toteutuksen tila: ei toteutettu :x:
 * HTTP Method: `PUT`
 * URL: `/v1/place/<aikan id>`
 * Onnistuneen kutsun vastaus: `HTTP 200`
@@ -126,6 +131,7 @@ Esimerkki lähetettävästä datasta:
 ## Paikkojen listaus
 
 * Toteutuksen prioriteetti: 3
+* Toteutuksen tila: toteutettu :white_check_mark:
 * HTTP Method: `GET`
 * URL: `/v1/place/`
 * Onnistuneen kutsun vastaus: `HTTP 200`
@@ -149,6 +155,7 @@ Esimerkkidata vastauksesta:
 ## Kaikkien tilojen käyttöastetilasto
 
 * Toteutuksen prioriteetti: 3
+* Toteutuksen tila: ei toteutettu :x:
 * HTTP Method:  `GET`
 * URL: `/v1/query/usagestats`
 * Query-parametrit:
@@ -176,6 +183,7 @@ Esimerkkidata:
 ## Lähin vapaa tai vapautuva vessa
 
 * Toteutuksen prioriteetti: 3
+* Toteutuksen tila: ei toteutettu :x:
 * HTTP Method: `GET`
 * URL: `/v1/query/nearest`
 * Query-parametrit:
