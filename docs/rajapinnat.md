@@ -22,11 +22,18 @@ Esimerkki lähetettävästä datasta:
 
 * `timestamp`-kenttä on valinnainen.  Oletusarvo vastaanottohetki.
 * `place_id`-kenttä on valinnainen.  Oletuksena palvelu liittää samaan
-  paikkaan, kuin aiempi data samasta anturista. Palauttaa `HTTP 409` viestillä `No previous event for device 10123` jos samalle anturille ei ole vielä yhtään tapahtumaa.
+  paikkaan, kuin aiempi data samasta anturista. Palauttaa `HTTP 409`
+  viestillä `No previous event for device 10123` jos samalle anturille
+  ei ole vielä yhtään tapahtumaa.
 * `type`-kentän arvoja ovat ainakin: "occupied", "ambient_light",
   "movement", "obscured"
   * "occupied" on tarkoitettu antureille, jotka haluavat itse päätellä,
     onko paikassa joku.  Muut parametrit ovat antureiden raakadataa.
+  * "ambient_light" tarkoittaa, kuinka kirkasta ympärillä oleva valo on.
+  * "movement" tarkoittaa, kuinka paljon tilassa on havaittu liikettä.
+  * "obscured" tarkoittaa, onko sähkösilmän edessä tyhjää vai este.
+  * "closed" tarkoittaa, onko anturin seuraama ovi (tai ikkuna) kiinni
+    vai auki.
 
 ## Tapahtumien raakadatan haku
 
