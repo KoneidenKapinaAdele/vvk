@@ -38,7 +38,7 @@ Esimerkki lähetettävästä datasta:
 ## Tapahtumien raakadatan haku
 
 * Toteutuksen prioriteetti: 1
-* Toteutuksen tila: toteutettu prioriteetti 1 :white_check_mark:
+* Toteutuksen tila: toteutettu kaikki prioriteetit :white_check_mark:
 * HTTP Method: `GET`
 * URL: `/v1/event/`
 * Query-parametrit:
