@@ -121,7 +121,7 @@ Esimerkki lähetettävästä datasta:
 ## Paikan päivitys
 
 * Toteutuksen prioriteetti: 3
-* Toteutuksen tila: ei toteutettu :x:
+* Toteutuksen tila: ei toteutettu :white_check_mark:
 * HTTP Method: `PUT`
 * URL: `/v1/place/<aikan id>`
 * Onnistuneen kutsun vastaus: `HTTP 200`
