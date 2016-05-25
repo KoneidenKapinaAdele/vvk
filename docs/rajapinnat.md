@@ -52,6 +52,7 @@ Esimerkki lähetettävästä datasta:
     * jos `device_id` tai `place_id` annetaan useamman kerran, kaikki
       luetellut paikat ja anturit haetaan.  Jos kumpaakaan ei anneta,
       haetaan kaikki paikat ja anturit.
+    * useamman arvon syöttö tapahtuu monistamalla saman nimistä parametria, esim. `/v1/event?device_id=100&device_id=200`
   * `type` (prioriteetti 2): haluttu mittaustyyppi, oletuksena kaikki,
     toistettavissa
 * Onnistuneen kutsun vastaus: `HTTP 200`
