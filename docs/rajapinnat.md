@@ -164,18 +164,18 @@ Esimerkkidata vastauksesta:
 ## Kaikkien tilojen käyttöastetilasto
 
 * Toteutuksen prioriteetti: 3
-* Toteutuksen tila: ei toteutettu :x:
+* Toteutuksen tila: toteutettu kaikki prioriteetit :white_check_mark:
 * HTTP Method:  `GET`
 * URL: `/v1/query/usagestats`
 * Query-parametrit:
-  * `starting`: ajanhetki, josta lähtien käyttöaste lasketaan
-  * `ending`: ajanhetki, johon asti käyttöaste lasketaan
-  * `device_id` (prioriteetti 4): haluttu anturi, toistettavissa
-  * `place_id` (prioriteetti 4): haluttu paikka, toistettavissa
+  * `starting`: ajanhetki, josta lähtien käyttöaste lasketaan (vapaaehtoinen)
+  * `ending`: ajanhetki, johon asti käyttöaste lasketaan (vapaaehtoinen)
+  * `device_id` (prioriteetti 4): haluttu anturi, toistettavissa (vapaaehtoinen)
+  * `place_id` (prioriteetti 4): haluttu paikka, toistettavissa (vapaaehtoinen)
     * jos `device_id` tai `place_id` annetaan useamman kerran, kaikki
       luetellut paikat ja anturit haetaan.  Jos kumpaakaan ei anneta,
       haetaan kaikki paikat ja anturit.
-  * `type` (prioriteetti 4): haluttu mittaustyyppi, oletuksena "occupied"
+  * `type` (prioriteetti 4): haluttu mittaustyyppi, oletuksena "occupied" (vapaaehtoinen)
 * Onnistuneen kutsun vastaus: `HTTP 200`
 * Laskee, mikä on halutun mittaustyypin arvojen keskiarvo halutuissa
   paikoissa / antureilla halutulla aikavälillä.  Kyllä/ei-arvoiset
