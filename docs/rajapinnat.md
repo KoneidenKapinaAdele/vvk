@@ -46,7 +46,7 @@ Esimerkki lähetettävästä datasta:
     oletusarvo äärettömän kaukana menneisyydessä.
   * `ending` (prioriteetti 2): jättää pois tätä myöhemmät tapahtumat,
     oletusarvo äärettömän kaukana tulevaisuudessa
-    * `starting` ja `ending` pitää olla ISO DateTime formaatissa `yyyy-MM-dd'T'HH:mm:ss.SSSZ` mutta kellonajan voi antaa epätarkempanakin, kuten esim. `2016-05-24T20:40`. Aikavyöhyke tosin katsotaan Herokun JVM-ajoympäristön asetuksista joten se voi olla mikä vaan. 
+    * `starting` ja `ending` pitää olla ISO DateTime formaatissa `yyyy-MM-dd'T'HH:mm:ss.SSSZ` mutta kellonajan voi antaa epätarkempanakin, kuten esim. `2016-05-24T20:40`.
   * `device_id` (prioriteetti 3): haluttu anturi, toistettavissa
   * `place_id` (prioriteetti 3): haluttu paikka, toistettavissa
     * jos `device_id` tai `place_id` annetaan useamman kerran, kaikki
