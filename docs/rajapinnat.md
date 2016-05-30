@@ -79,7 +79,8 @@ Esimerkki palautettavasta datasta:
 ## Kaikkien paikkojen tämän hetken tilanteen selvitys
 
 * Toteutuksen prioriteetti: 1
-* Toteutuksen tila: toteutettu (tukee vain `occupied` tapahtumatyyppiä) :white_check_mark:
+* Toteutuksen tila: toteutettu prioriteetti 1 :white_check_mark:
+  * Tukee vain tapahtumatyyppejä `occupied` ja `movement`
 * HTTP Method: `GET`
 * URL: `/v1/status/current`
 * Query-parametrit:
@@ -100,6 +101,25 @@ Esimerkkidata:
  "longitude": 60.17664,
  "occupied": false
 }]
+```
+
+## Paikan tämän hetken tilanteen selvitys
+
+* Toteutuksen prioriteetti: 1
+* Toteutuksen tila: toteutettu :white_check_mark:
+* HTTP Method: `GET`
+* URL: `/v1/place/<paikan id>/status/current`
+* Onnistuneen kutsun vastaus: `HTTP 200`
+  * Palauttaa `HTTP 409` jos paikalle ei ole vielä yhtään tapahtumaa, josta voisi päätellä tilanteen.
+
+Esimerkkidata:
+```JSON
+{
+ "place_id": 945,
+ "latitude": 24.93876,
+ "longitude": 60.17664,
+ "occupied": true
+}
 ```
 
 ## Paikan lisäys
@@ -125,7 +145,7 @@ Esimerkki lähetettävästä datasta:
 * Toteutuksen prioriteetti: 3
 * Toteutuksen tila: ei toteutettu :white_check_mark:
 * HTTP Method: `PUT`
-* URL: `/v1/place/<aikan id>`
+* URL: `/v1/place/<paikan id>`
 * Onnistuneen kutsun vastaus: `HTTP 200`
 
 Esimerkki lähetettävästä datasta:
