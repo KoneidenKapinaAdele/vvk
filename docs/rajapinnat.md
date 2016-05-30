@@ -76,16 +76,16 @@ Esimerkki palautettavasta datasta:
 }]
 ```
 
-## Kaikkien paikkojen tämän hetken tilanteen selvitys
+## Kaikkien paikkojen tilanteen selvitys
 
 * Toteutuksen prioriteetti: 1
 * Toteutuksen tila: toteutettu prioriteetti 1 :white_check_mark:
   * Tukee vain tapahtumatyyppejä `occupied` ja `movement`
 * HTTP Method: `GET`
-* URL: `/v1/status/current`
+* URL: `/v1/status`
 * Query-parametrit:
-  * `type` (prioriteetti 4): minkätyyppistä mittausdataa haetaan,
-    oletuksena "occupied"
+  * `at`: (prioriteetti 1) ajanhetki jonka tila selvitetään (vapaaehtoinen). Oletuksena nykyinen ajanhetki.
+  * `type` (prioriteetti 4): minkätyyppistä mittausdataa haetaan, oletuksena `occupied` ja `movement` on valittu
 * Onnistuneen kutsun vastaus: `HTTP 200`
 
 Esimerkkidata:
@@ -103,12 +103,14 @@ Esimerkkidata:
 }]
 ```
 
-## Paikan tämän hetken tilanteen selvitys
+## Yhden paikan tilanteen selvitys
 
 * Toteutuksen prioriteetti: 1
 * Toteutuksen tila: toteutettu :white_check_mark:
 * HTTP Method: `GET`
-* URL: `/v1/place/<paikan id>/status/current`
+* URL: `/v1/place/<paikan id>/status`
+* Query-parametrit:
+  * `at`: ajanhetki jonka tila selvitetään (vapaaehtoinen). Oletuksena nykyinen ajanhetki.
 * Onnistuneen kutsun vastaus: `HTTP 200`
   * Palauttaa `HTTP 409` jos paikalle ei ole vielä yhtään tapahtumaa, josta voisi päätellä tilanteen.
 
