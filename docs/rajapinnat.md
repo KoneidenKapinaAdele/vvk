@@ -94,12 +94,14 @@ Esimerkkidata:
  "place_id": 945,
  "latitude": 24.93876,
  "longitude": 60.17664,
- "occupied": true
+ "occupied": true,
+ "lastEventTime": "2016-03-10T12:49:12+22:45"
 }, {
  "place_id": 946,
  "latitude": 24.93866,
  "longitude": 60.17664,
- "occupied": false
+ "occupied": false,
+ "lastEventTime": "2016-03-10T12:49:12+22:45"
 }]
 ```
 
@@ -107,6 +109,7 @@ Esimerkkidata:
 
 * Toteutuksen prioriteetti: 1
 * Toteutuksen tila: toteutettu :white_check_mark:
+  * Tukee vain tapahtumatyyppejä `occupied` ja `movement`
 * HTTP Method: `GET`
 * URL: `/v1/place/<paikan id>/status`
 * Query-parametrit:
@@ -120,7 +123,8 @@ Esimerkkidata:
  "place_id": 945,
  "latitude": 24.93876,
  "longitude": 60.17664,
- "occupied": true
+ "occupied": true,
+ "lastEventTime": "2016-03-10T12:49:12+22:45"
 }
 ```
 
@@ -197,7 +201,7 @@ Esimerkkidata vastauksesta:
     * jos `device_id` tai `place_id` annetaan useamman kerran, kaikki
       luetellut paikat ja anturit haetaan.  Jos kumpaakaan ei anneta,
       haetaan kaikki paikat ja anturit.
-  * `type` (prioriteetti 4): haluttu mittaustyyppi, oletuksena "occupied" (vapaaehtoinen)
+  * `type` ~~(prioriteetti 4): haluttu mittaustyyppi, oletuksena "occupied" (vapaaehtoinen)~~ (tutkii aina vain `occupied` ja `movement` -tilooja)
 * Onnistuneen kutsun vastaus: `HTTP 200`
 * Laskee, mikä on halutun mittaustyypin arvojen keskiarvo halutuissa
   paikoissa / antureilla halutulla aikavälillä.  Kyllä/ei-arvoiset
