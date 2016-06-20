@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VVK POC</title>
+    <link rel="stylesheet" href="css/vvk.css"/>
+  </head>
+  <body>
+    <div id="content">
+    	<div class="map">
+	    	<span id="toilet1" class="toilet free"></span>
+	    	<span id="toilet2" class="toilet free"></span>
+	    	<span id="toilet3" class="toilet free"></span>
+	    	<span id="toilet4" class="toilet free"></span>
+	    	<span id="toilet5" class="toilet free"></span>
+	    	<span id="toilet6" class="toilet free"></span>
+	    	<span id="toilet7" class="toilet free"></span>
+	    	<span id="toilet8" class="toilet free"></span>
+	    	<span id="toilet9" class="toilet free"></span>
+    	</div>
+      <div id="clock"></div>
+      <div id="totalUsageGauge"></div>
+    </div>
+    <script src="js/vvk.js"></script>
+    <script src="js/lib/raphael-2.1.4.min.js"></script>
+    <script src="js/lib/justgage.js"></script>
+    <script>
+      new vvk().start(['toilet1', 'toilet2', 'toilet3', 'toilet4', 'toilet5', 'toilet6', 'toilet7', 'toilet8', 'toilet9']);
+    </script>
+  </body>
+</html>
