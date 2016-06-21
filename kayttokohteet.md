@@ -13,6 +13,19 @@ ideoita, mihin vapauskarttoja voisi käyttää.
 ### Esimerkkikäyttökohteita
 
 <br style="clear: left">
+<img alt="[Puhelinkoppi]" src="images/puhelinkoppi.jpg" class="leftpic">
+Missä pääsisin puhumaan rauhassa puhelimeen?  Kaikissa työtiloissa ei
+ole erillisiä, selkeitä puhelinkoppeja, vaan sen sijaan
+porrastasanteita, rauhallisia nurkkia ja muita.  Varsinkin puhelun
+tullessa on hyvin kätevää, jos saa suoraan tietää, missä on lähin vapaa
+hiljainen tila.
+
+Jos puhelinkopit ovat suljettuja, saadaan erittäin tarkka varaustilanne
+selville yhdistämällä tietoa oven kiinniolosta ja liikkeestä.
+Neuvotteluhuoneita, vessoja ja suihkuja voi varata helposti samaan
+tapaan.
+
+<br style="clear: left">
 <img alt="[Kahvitila]" src="images/kahvitila.jpg" class="leftpic">
 Kahvitilat ovat usein pieniä ja niihin on ängetty paljon
 yhteiskäyttöisiä palveluita ja laitteita.  Kun tarpeeksi moni seuraa
