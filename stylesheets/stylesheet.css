@@ -503,6 +503,12 @@ header h2 {
   padding: 15px;
 }
 
+.leftpic {
+  float: left;
+  clear: left;
+  padding: 5px;
+}
+
 aside#sidebar {
   float: right;
   width: 200px;
