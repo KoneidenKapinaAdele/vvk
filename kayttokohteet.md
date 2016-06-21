@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### Vain _X_ rajana...
+### Vain sijainti ja yhteiskäyttöisyys rajana...
 
 Vapauskartta soveltuu mihin tahansa yhteiskäyttöiseen resurssiin, jolla
 on sijainti.  Mutta voi olla vaikea kuvitella, mitä kaikkea tämä voisi
