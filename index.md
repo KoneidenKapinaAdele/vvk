@@ -39,30 +39,3 @@ palvelun voi ottaa koekäyttöön pienellä taloudellisella riskillä ja jopa
 omatoimisesti.  Tiedonkeruun asennuksiin ja ylläpitoon sekä kertyneen
 varausaineiston jatkohyödyntämiseen on saatavilla maksullista tukea.
 
-### Kannattaako vapauskartta ottaa käyttöön meidän tiloissamme?
-
-Joissakin paikoissa ei ole minkäänlaisia tukkeutumisongelmia: kaikkia
-yhteiskäyttöisiä resursseja on yllin kyllin.  Jos pullonkauloja alkaa
-kuitenkin muodostua, vapauskartta on sekä halvempi että
-miellyttävämmäksi koettu kuin vaihtoehdot:
-
-- Jos tilanteelle ei tehdä mitään, aikaa ja vaivaa tuhrautuu vapaiden
-  resurssien etsimiseen.  Lisäksi on näkymätöntä töiden hidastumista,
-  kun käyttäjät ennakoivat (usein tiedostamattaan) varaustilannetta: "ei
-  sinne kumminkaan kannata mennä vielä, kun siellä on niin iso jono..."
-  Vapauskartta sen sijaan kertoo ihmisille välittömästi, tarvitseeko
-  jonottaa vai ei.
-
-- Jos yhteiskäyttöisiä resursseja rakennetaan lisää, se tulee usein
-  kalliiksi, ja lisäksi uudet laitteet/tilat täytyy sijoittaa johonkin
-  uuteen paikkaan.  Koska kaikki järkevät paikat ovat yleensä jo
-  käytössä, uudet sijoittuvat kauas ja käyttäjien kannalta
-  epäkäytännöllisiin paikkoihin.
-
-- Jos vapauskartan sijaan tehdään varausjärjestelmä (kuten usein
-  neuvotteluhuoneille), tukkeutumistilanne usein *pahenee*, kun
-  ihmiset ennakkovaraavat resurssit yli tarpeen - jotteivät jäisi ilman.
-  Reaaliaikainen vapauskartta sen sijaan ohjaa käyttäjät luonnostaan
-  välittömästi oikeasti vapaille paikoille ja maksimoi niiden
-  hyötykäytön.
-
