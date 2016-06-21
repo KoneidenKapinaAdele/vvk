@@ -497,6 +497,12 @@ header h2 {
   max-width: 100%;
 }
 
+.margin {
+  float: right;
+  width: 150px;
+  padding: 15px;
+}
+
 aside#sidebar {
   float: right;
   width: 200px;
