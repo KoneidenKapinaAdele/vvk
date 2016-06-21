@@ -4,6 +4,10 @@ layout: default
 
 ### Miten saan itselleni vapauskartan?
 
+<div class="margin"><hr>
+ <img src="images/VVK-käyttöönotto.png" alt="käyttöönoton vaiheet: 1. anturit; 2. tukiasema; 3. näytöt">
+<hr></div>
+
 Vapauskartan asentamisessa on yleensä kyse siitä, että käynnistetään
 tarvittavat tiedonkeruut.  Järjestelmän muut komponentit ovat valmiiksi
 olemassa: tietoa keräävä ja tarjoava pilvipalvelu sekä sen selain- ja
