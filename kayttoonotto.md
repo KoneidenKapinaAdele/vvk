@@ -15,9 +15,10 @@ Varaustilanteen tietolähteenä voivat olla valmiiksi asennetut anturit,
 erikseen vapauskarttaa varten asennettavat anturit, tai valmis
 tietojärjestelmä, johon kerääntyy tietoa varaustilanteesta jossain
 muodossa.  Tiedonkeruun virittämiseen voi tilata
-[asennuspalvelun](mailto:{{site.email}}).  Lisäksi yhteisiin tiloihin
-voidaan asentaa monitoreita, joista reaaliaikaisen tilanteen näkee
-tarvitsematta kaivaa esille omaa älypuhelinta.
+[asennuspalvelun](mailto:{{site.email}}?subject=Vapauskarttatilaus).
+Lisäksi yhteisiin tiloihin voidaan asentaa monitoreita, joista
+reaaliaikaisen tilanteen näkee tarvitsematta kaivaa esille omaa
+älypuhelinta.
 
 ### Kannattaako vapauskartta ottaa käyttöön meidän tiloissamme?
 
