@@ -12,7 +12,7 @@ description: >
   Vapauskartat ovat reaaliaikaisesti päivittyviä karttoja, jotka
   kertovat lähistön todellisen varaustilanteen. Varaustieto kerätään
   reaaliaikaisesti antureilla tai muista tietolähteistä.
-baseurl: "http://koneidenkapinaadele.github.io/vvk/"
+baseurl: "" # "http://koneidenkapinaadele.github.io/vvk"
 url: "http://koneidenkapinaadele.github.io/"
 twitter_username: jekyllrb
 github_username:  KoneidenKapinaAdele
