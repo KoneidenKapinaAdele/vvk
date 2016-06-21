@@ -5,7 +5,8 @@ layout: default
 ### Miten saan itselleni vapauskartan?
 
 <div class="margin"><hr>
- <img src="images/VVK-käyttöönotto.png" alt="käyttöönoton vaiheet: 1. anturit; 2. tukiasema; 3. näytöt">
+ <img src="images/VVK-käyttöönotto.png" alt="1. anturit; 2. tukiasema; 3. näytöt"><br>
+ <small>käyttöönoton vaiheet</small>
 <hr></div>
 
 Vapauskartan asentamisessa on yleensä kyse siitä, että käynnistetään
