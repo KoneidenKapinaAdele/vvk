@@ -7,13 +7,15 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
         {{ content }}
+        </section>
+	{% include aside.html %}
       </div>
+      {% include footer.html %}
     </div>
-
-    {% include footer.html %}
 
   </body>
 
