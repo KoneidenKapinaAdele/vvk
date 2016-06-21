@@ -31,7 +31,8 @@ suuren ihmisjoukon yhteiskäyttöisiä välineitä tai tiloja.  Toinen
 tilaajatyyppi voisi olla saman alueen palveluntarjoajien yhteenliittymä,
 jos esimerkiksi lounasravintolat pääsevät yhteisymmärrykseen
 vapauskartasta, joka kertoo alueen lounasravintoloiden täyttöasteen
-kullakin ajanhetkellä.
+kullakin ajanhetkellä.  Katso muita
+[esimerkkikäyttökohteita](kayttokohteet) omalta sivultaan.
 
 VVK-palvelun [ohjelmistokomponentit](teknologia) ovat [avointa
 lähdekoodia](https://github.com/KoneidenKapinaAdele/vvk-back), joten
