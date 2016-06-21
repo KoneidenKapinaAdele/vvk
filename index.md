@@ -16,8 +16,8 @@ vessat, puhelinkopit tai parkkipaikat - näillä kaikilla on yhteinen
 piirre: niistä on joskus pulaa.  Ja kun jostain on pulaa, se aiheuttaa
 jonoja, turhaa kiertelyä, ajanhukkaa ja ärtymystä.
 
-Vapauskartat ovat reaaliaikaisesti päivittyviä karttoja, jotka
-kertovat lähistön todellisen varaustilanteen.  Ne eivät perustu
+**Vapauskartat ovat reaaliaikaisesti päivittyviä karttoja, jotka
+kertovat lähistön todellisen varaustilanteen.**  Ne eivät perustu
 luulotteluun eivätkä erikseen tehtäviin ennakkovarauksiin, vaan kertovat
 vallitsevan tilanteen täsmälleen sellaisena, kuin se on.  Varaustieto
 kerätään reaaliaikaisesti antureilla tai muusta varaustietolähteestä,
