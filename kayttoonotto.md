@@ -54,9 +54,9 @@ miellyttävämmäksi koettu kuin vaihtoehdot:
 
 ### Oman vapauskarttapalvelun pystyttäminen
 
-Jos et halua viedä omia tietojasi pilvipalveluun, voit käyttää myös omia
-asennuksia VVK-ohjelmistosta.  Ohjelmisto on dokumentoitu
-[teknologiasivulla](teknologia) ja
+Jos et halua viedä omien tilojesi varaustietoja pilvipalveluun, voit
+käyttää myös omia asennuksia VVK-ohjelmistosta.  Ohjelmisto on
+dokumentoitu [teknologiasivulla](teknologia) ja
 [Github-palvelussa](https://github.com/KoneidenKapinaAdele/), mutta myös
 paikallisiin asennuksiin tarjotaan [maksullista
 tukea](mailto:{{site.email}}?subject=Asennustuki).
