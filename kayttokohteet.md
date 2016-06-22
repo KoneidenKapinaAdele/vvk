@@ -20,10 +20,10 @@ porrastasanteita, rauhallisia nurkkia ja muita.  Varsinkin puhelun
 tullessa on hyvin kätevää, jos saa suoraan tietää, missä on lähin vapaa
 hiljainen tila.
 
-Jos puhelinkopit ovat suljettuja, saadaan erittäin tarkka varaustilanne
-selville yhdistämällä tietoa oven kiinniolosta ja liikkeestä.
-Neuvotteluhuoneita, vessoja ja suihkuja voi varata helposti samaan
-tapaan.
+Jos puhelinkopit ovat suljettavia, saadaan erittäin tarkka varaustilanne
+selville yhdistämällä tietoa oven kiinniolosta ja sisällä tapahtuvasta
+liikkeestä.  Neuvotteluhuoneiden, vessojen ja suihkujen varaustilannetta
+voi seurata helposti samaan tapaan.
 
 <br style="clear: left">
 <img alt="[Kahvitila]" src="images/kahvitila.jpg" class="leftpic">
