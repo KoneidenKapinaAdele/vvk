@@ -27,6 +27,14 @@ juurikaan liity eettisiä ongelmia.  Ne ovat siis ihmisten käyttäytymistä
 tarkasti kuvaava tiedonlähde, jonka tieteellinen ja kaupallinen käyttö
 on varsin ongelmatonta.
 
+### Avoimet rajapinnat
+
+VVK-palvelun rajapinnat ovat avoimia REST-rajapintoja, joista aineistot
+saa helposti JSON-muodossa omaan käyttöön.  Et ole siis sidottu tähän
+yhteen palveluun, vaan tietosi pysyvät sinun hallinnassasi.
+[Esimerkkikartan APIa](https://secret-oasis-98680.herokuapp.com/swagger-ui.html)
+voi selailla verkossa.
+
 ### Vapauskarttojen vaikuttavuuden arviointi
 
 VVK-vapauskarttojen käyttöönotto kannattaa aloittaa seurantavaiheella,
