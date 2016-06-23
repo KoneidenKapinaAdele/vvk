@@ -33,7 +33,8 @@ VVK-palvelun rajapinnat ovat avoimia REST-rajapintoja, joista aineistot
 saa helposti JSON-muodossa omaan käyttöön.  Et ole siis sidottu tähän
 yhteen palveluun, vaan tietosi pysyvät sinun hallinnassasi.
 [Esimerkkikartan APIa](https://secret-oasis-98680.herokuapp.com/swagger-ui.html)
-voi selailla verkossa.
+voi selailla verkossa, ja sille on myös
+[dokumentaatio](https://github.com/KoneidenKapinaAdele/vvk/blob/master/docs/rajapinnat.md).
 
 ### Vapauskarttojen vaikuttavuuden arviointi
 
