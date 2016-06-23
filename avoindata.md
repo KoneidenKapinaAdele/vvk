@@ -4,6 +4,8 @@ layout: default
 
 ### Anonyymin käyttäytymistiedon aarreaitta
 
+![käytön aikajanoja](aikajanat.png)
+
 Vapauskarttojen sivutuotteena kertyy runsaasti dataa, jota voi käyttää
 resurssien riittävyyden ja kuormituksen pitkäjänteiseen analysointiin.
 Kerätyn aineiston avulla voidaan vastata tarkasti ja objektiivisesti
