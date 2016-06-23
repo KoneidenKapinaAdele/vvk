@@ -25,6 +25,10 @@ Lisäksi yhteisiin tiloihin voidaan asentaa monitoreita, joista
 reaaliaikaisen tilanteen näkee tarvitsematta kaivaa esille omaa
 älypuhelinta.
 
+Jos vapauskartasta kerääntyvää tietoa halutaan
+[jatkohyödyntää](avoindata), se kannattaa ottaa huomioon jo
+suunnitteluvaiheessa.
+
 ### Kannattaako vapauskartta ottaa käyttöön meidän tiloissamme?
 
 Joissakin paikoissa ei ole minkäänlaisia tukkeutumisongelmia: kaikkia
