@@ -35,8 +35,8 @@ kullakin ajanhetkellä.  Katso muita
 [esimerkkikäyttökohteita](kayttokohteet) omalta sivultaan.
 
 VVK-palvelun [ohjelmistokomponentit](teknologia) ovat [avointa
-lähdekoodia](https://github.com/KoneidenKapinaAdele/vvk-back), joten
-palvelun voi ottaa koekäyttöön pienellä taloudellisella riskillä ja jopa
+lähdekoodia](https://github.com/KoneidenKapinaAdele/), joten palvelun
+voi ottaa koekäyttöön pienellä taloudellisella riskillä ja jopa
 omatoimisesti.  Tiedonkeruun asennuksiin ja ylläpitoon sekä kertyneen
 varausaineiston jatkohyödyntämiseen on saatavilla maksullista tukea.
 
