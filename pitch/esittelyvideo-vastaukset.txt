@@ -1,0 +1,54 @@
+
+/1.      /*/TIIVISTYS YLEISESTI: “Joukkuueeni_/*/(nimi)/*/_ kehittää
+_/*/(selkeää tuotetta)/*/_ auttaakseen _/*/(hyvin määriteltyä
+kohderyhmää)/*/_/**/ /**//**/_/*/(ratkaisemaan ongelman
+X)/*/_/**/  /**/_/*/(oivaltavalla tavalla)/*/_” /**/à/**/Katso
+liitteenä oleva Lassin ‘Miten pidän menestyksekkään pitchauksen?’
+-prese/*//
+
+Adele kehittää IoT-pohjaisia vapauskarttoja auttaakseen vessojen ja
+neuvotteluhuoneiden tarvitsijoita löytämään vapaana olevan paikan.
+Kartat päivittyvät reaaliaikaisesti todellisen vapaustilanteen mukaan.
+
+/2.      /*/IDEA:/*/Mistä työssänne on kysymys?///
+
+- sensoridatan avulla päätellään varaustilanne
+- algoritmi, joka käyttää sensoridataa ja päättelee varaustilanteen
+- sovelluspohjainen palvelu, jossa näkee vapaat resurssit sijoiteltuna
+  kartalle
+- tavoitteena, ettei tarvitse jonottaa eikä etsiskellä
+- näyttö Solitan Helsingin-kahvihuoneessa näyttää vessojen
+  varaustilanteen
+- vaihtoehto sähköisille varausjärjestelmille
+- yhteiskäyttöisten tilojen ja muiden resurssien tulevaisuus
+- hauska läppä, perustuu todelliseen tarpeeseen
+- uusi, mielenkiintoinen tietotyyppi, mahdollisuus leikkiä antureilla
+
+/3.      /*/HYÖTY:/*/Mihin keksintöänne voi soveltaa – mikä on
+mahdollista?///
+
+- kaikki yhteiskäyttöiset resurssit: puhelinkopit, kahvikoneet,
+  mikroaaltouunit, parkkipaikat, pyöräpaikat, astiat, harjoitustilat,
+  neuvottelu- ja ryhmätyötilat, pesutuvat, ...
+- tietoa voi kerätä esim. liikeantureilla, kameroilla, painoantureilla,
+  ...
+- analysoidaan dataa ja tunnistetaan siitä pullonkauloja / tarpeita
+  lisäresursseille
+- laajennusten suunnittelu ja käyttäjien kokemuksen parantaminen
+
+/4.      /*/TEKNOLOGIA:/*/Miten olette lähestyneet aihetta?/
+
+- liikeanturit vessoissa ja ovien auki-/kiinnioloanturit
+- mahdollisimman halpoja, verkkokaupasta saatavia komponentteja, valmiit
+  avoimet rajapinnat
+- oma pilvipalvelu, jossa myös "avoimet" rajapinnat
+- eri komponenttien kehitystyössä mentiin rajapinnat edellä eli niitä
+  kehitettiin yhtaikaa rajapintaspeksin mukaan
+- tavoitteena mahdollimman puhdas raakadatan keruu (myös analyyseja
+  varten)
+- käyttöliittymä toimii suoraan selaimessa, tekee rajapintakutsuja
+  pilvi-backendiin
+- backend pyörii Herokussa ja tehty Springillä
+- datankeruu pyörii Raspberry Pi -koneella ja enimmäkseen Pythonia
+- frontend servataan Github pagesista ja on ihan vanilla JS
+
