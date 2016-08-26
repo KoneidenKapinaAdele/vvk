@@ -12,40 +12,53 @@ Kartat päivittyvät reaaliaikaisesti todellisen vapaustilanteen mukaan.
 
 /2.      /*/IDEA:/*/Mistä työssänne on kysymys?///
 
-- sensoridatan avulla päätellään varaustilanne
+- vaihtoehto (nykyisille) sähköisille varausjärjestelmille
 - algoritmi, joka käyttää sensoridataa ja päättelee varaustilanteen
+- näyttö Solitan Helsingin-kahvihuoneessa näyttää vessojen
+  varaustilanteen
+- hauska läppä, perustuu todelliseen tarpeeseen
+
+vähemmän olennaisia:
+
+- sensoridatan avulla päätellään varaustilanne
 - sovelluspohjainen palvelu, jossa näkee vapaat resurssit sijoiteltuna
   kartalle
 - tavoitteena, ettei tarvitse jonottaa eikä etsiskellä
-- näyttö Solitan Helsingin-kahvihuoneessa näyttää vessojen
-  varaustilanteen
-- vaihtoehto sähköisille varausjärjestelmille
 - yhteiskäyttöisten tilojen ja muiden resurssien tulevaisuus
-- hauska läppä, perustuu todelliseen tarpeeseen
 - uusi, mielenkiintoinen tietotyyppi, mahdollisuus leikkiä antureilla
 
 /3.      /*/HYÖTY:/*/Mihin keksintöänne voi soveltaa – mikä on
 mahdollista?///
 
-- kaikki yhteiskäyttöiset resurssit: puhelinkopit, kahvikoneet,
+- kaikki yhteiskäyttöiset resurssit, esim. lounasravintoloiden vapaat
+  paikat, yhteiskäyttöiset astiat, vessat ja neuvottelutilat
+- analysoidaan dataa ja tunnistetaan siitä pullonkauloja / tarpeita
+  lisäresursseille
+
+vähemmän olennaisia:
+
+- kaikki yhteiskäyttöiset resurssit, myös puhelinkopit, kahvikoneet,
   mikroaaltouunit, parkkipaikat, pyöräpaikat, astiat, harjoitustilat,
   neuvottelu- ja ryhmätyötilat, pesutuvat, ...
 - tietoa voi kerätä esim. liikeantureilla, kameroilla, painoantureilla,
   ...
-- analysoidaan dataa ja tunnistetaan siitä pullonkauloja / tarpeita
-  lisäresursseille
 - laajennusten suunnittelu ja käyttäjien kokemuksen parantaminen
 
 /4.      /*/TEKNOLOGIA:/*/Miten olette lähestyneet aihetta?/
 
 - liikeanturit vessoissa ja ovien auki-/kiinnioloanturit
-- mahdollisimman halpoja, verkkokaupasta saatavia komponentteja, valmiit
-  avoimet rajapinnat
-- oma pilvipalvelu, jossa myös "avoimet" rajapinnat
-- eri komponenttien kehitystyössä mentiin rajapinnat edellä eli niitä
-  kehitettiin yhtaikaa rajapintaspeksin mukaan
+  (Tellstick-järjestelmä) ja Raspberry pi -kontrolleri
+- oma pilvipalvelu, jossa myös "avoimet" rajapinnat ja julkaistu
+  avoimena lähdekoodina
 - tavoitteena mahdollimman puhdas raakadatan keruu (myös analyyseja
   varten)
+
+vähemmän olennaisia:
+
+- mahdollisimman halpoja, verkkokaupasta saatavia komponentteja, valmiit
+  avoimet rajapinnat
+- eri komponenttien kehitystyössä mentiin rajapinnat edellä eli niitä
+  kehitettiin yhtaikaa rajapintaspeksin mukaan
 - käyttöliittymä toimii suoraan selaimessa, tekee rajapintakutsuja
   pilvi-backendiin
 - backend pyörii Herokussa ja tehty Springillä
