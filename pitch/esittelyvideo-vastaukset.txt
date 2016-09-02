@@ -6,11 +6,15 @@ X)/*/_/**/  /**/_/*/(oivaltavalla tavalla)/*/_” /**/à/**/Katso
 liitteenä oleva Lassin ‘Miten pidän menestyksekkään pitchauksen?’
 -prese/*//
 
-Adele kehittää IoT-pohjaisia vapauskarttoja auttaakseen vessojen ja
-neuvotteluhuoneiden tarvitsijoita löytämään vapaana olevan paikan.
+(Jussi, Panu)
+
+Adele kehittää antureihin perustuvia vapauskarttoja auttaakseen vessojen
+ja neuvotteluhuoneiden käyttäjiä löytämään vapaana olevan paikan.
 Kartat päivittyvät reaaliaikaisesti todellisen vapaustilanteen mukaan.
 
 /2.      /*/IDEA:/*/Mistä työssänne on kysymys?///
+
+(Liisa, Jussi)
 
 - vaihtoehto (nykyisille) sähköisille varausjärjestelmille
 - algoritmi, joka käyttää sensoridataa ja päättelee varaustilanteen
@@ -30,6 +34,8 @@ vähemmän olennaisia:
 /3.      /*/HYÖTY:/*/Mihin keksintöänne voi soveltaa – mikä on
 mahdollista?///
 
+(Liisa, Jussi)
+
 - kaikki yhteiskäyttöiset resurssit, esim. lounasravintoloiden vapaat
   paikat, yhteiskäyttöiset astiat, vessat ja neuvottelutilat
 - analysoidaan dataa ja tunnistetaan siitä pullonkauloja / tarpeita
@@ -45,6 +51,8 @@ vähemmän olennaisia:
 - laajennusten suunnittelu ja käyttäjien kokemuksen parantaminen
 
 /4.      /*/TEKNOLOGIA:/*/Miten olette lähestyneet aihetta?/
+
+(Liisa, Panu)
 
 - liikeanturit vessoissa ja ovien auki-/kiinnioloanturit
   (Tellstick-järjestelmä) ja Raspberry pi -kontrolleri
