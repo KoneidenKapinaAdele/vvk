@@ -8,9 +8,9 @@ liitteenä oleva Lassin ‘Miten pidän menestyksekkään pitchauksen?’
 
 (Jussi, Panu)
 
-Adele kehittää antureihin perustuvia vapauskarttoja auttaakseen vessojen
-ja neuvotteluhuoneiden käyttäjiä löytämään vapaana olevan paikan.
-Kartat päivittyvät reaaliaikaisesti todellisen vapaustilanteen mukaan.
+Adele kehittää antureihin perustuvia vapauskarttoja, joilla vessojen ja
+neuvotteluhuoneiden käyttäjät löytävät vapaana olevan paikan.  Kartat
+päivittyvät reaaliaikaisesti todellisen vapaustilanteen mukaan.
 
 /2.      /*/IDEA:/*/Mistä työssänne on kysymys?///
 
